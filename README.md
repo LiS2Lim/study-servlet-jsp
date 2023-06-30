@@ -20,24 +20,5 @@ Pulbic class サーブレット入門 {
     第13章 JDBCプログラムとDAOパターン,
     第14章 Webアプリケーションの設計,
   }
-
-  public String DoStudy(目次 list) {
-    return list + "の練習問題を解いてGithubに更新"
-  }
-
-  public static void main(String[] args) {
-    try {
-      String result = DoStudy(目次.valueOf(args[0]));
-      String today = new SimpleDateFormat("yyyy/MM/dd").format(new GregorianCalendar().getTime());
-      System.out.println(result + "(" + today + ")");
-    } catch (ArrayIndexOutOfBoundsException e) {
-      System.out.println("勉強予定のリストを記入してください");
-    } catch (IllegalArgumentException e) {
-      System.out.println("章の名前が間違ってます。確認してから再度入力ください");
-    } catch (Throwable e) {
-      System.out.println("予期せぬエラーが発生しました。作業を終了します");
-      return;
-    }
-  }
 }
 </pre>
