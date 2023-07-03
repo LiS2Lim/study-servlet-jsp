@@ -11,7 +11,7 @@ package Chapter01;
  * このうち、ページに関する情報を書くのは「⑦」、ページの本体を書くのは「⑧」である。
  * HTMLをWebページとして表示するには「⑨」というソフトウェアを使用する。
  */
-class Question01 extends utils.Questions {
+class Question01 {
     Question01() {
         String answer = """
                 ①タグ
@@ -32,7 +32,7 @@ class Question01 extends utils.Questions {
  * 次の図のように、「菅原拓真のプロフィール(sugawara.html)」というWebページを作成し、コード1-4(P38)の「メンバー一覧ページ(memberList.html」に追加変更を加えて、行き来できるようにしてください。
  * また、コード1-6(P43)で作った「綾部めぐみのプロフィール(ayabe.html)」ともメンバー一覧ページから行き来できるようにしましょう。
  */
-class Question02 extends utils.Questions {
+class Question02 {
     Question02() {
         String answer = """
                 以下のタグをmemberList.htmlに追加する。
