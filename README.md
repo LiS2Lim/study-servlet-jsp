@@ -5,7 +5,7 @@ Pulbic class サーブレット入門 {
   private final String BOOK_TITLE = "スッキリわかるサーブレット&JSP入門";
   private final String BOOK_URL = "<a href="https://book.impress.co.jp/books/1118101130">https://book.impress.co.jp/books/1118101130</a>";
   private enum 目次 = { 
-    第01章 HTMLとWebページ,
+    Main,
     第02章 Webの仕組み,
     第03章 サーブレットの基礎,
     第04章 JSPの基本,
