@@ -49,7 +49,7 @@ class Question02 extends util.Questions {
                         if(num%2 == 0) {
                             res.sendRedirect("/ex/redirected.jsp");
                         } else {
-                            RequestDispatcher dispatcher = req.getRequestDispatcher("/forwarded.jsp");
+                            RequestDispatcher dispatcher = req.geRequestDispatcher("/forwarded.jsp");
                             dispatcher.forward(req,res);
                         }
                     }
